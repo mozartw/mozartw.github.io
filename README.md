@@ -1,8 +1,10 @@
-## Welcome to GitHub Pages
+## 这是我的第一个 GitHub Pages 页面吗？
 
-You can use the [editor on GitHub](https://github.com/mozartw/mozartw.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+You can use the [editor on GitHub](https://github.com/mozartw/mozartw.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.  
+您可以使用 github 上的编辑器 (https://github.com/mozartw/mozartw.github.io/edit/master/README.md) 中维护并预览您的网站内容.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.  
+哈哈！纳尼？  这是神马啊？
 
 ### Markdown
 
