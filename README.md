@@ -18,11 +18,11 @@
   输出效果：  
   # 一级标题  
   输入代码：`## 二级标题`
-  输出效果：  
-  ## 二级标题  
+  输出效果：    
+  ## 二级标题    
   输入代码：`###### 六级标题`  
-  输出效果：  
-  ###### 六级标题  
+  输出效果：    
+  ###### 六级标题    
 5. 引用：  
   输入代码：  `> 伟大领袖毛主席曾经说过：“没有调查就没有发言权！”`  
   输出效果：  
@@ -34,9 +34,9 @@
   [百度一下](https://www.baidu.com/)  
   图片链接：  
   输入代码：  
-  `![百度LOGO](https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&tn=SE_PclogoS_8whnvm25&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pcs)`  
+  `![百度LOGO]()`  
   输出效果：  
-  ![百度LOGO](https://www.baidu.com/s?wd=%E4%BB%8A%E6%97%A5%E6%96%B0%E9%B2%9C%E4%BA%8B&tn=SE_PclogoS_8whnvm25&sa=ire_dl_gh_logo&rsv_dl=igh_logo_pcs)
+  ![百度LOGO]()
   
   ***  
 * 无序列表1
