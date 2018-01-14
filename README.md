@@ -1,6 +1,7 @@
 # 这是我的第一个 GitHub Pages 页面吗？
 ***
-**为什么 github 的 markdown 语法和标准的不同呢？？**
+**为什么 github 的 markdown 语法和标准的不同呢？？**  
+***  
 
 # 以下是支持的语法： 
 ## 文字和段落：
