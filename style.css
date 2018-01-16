@@ -1,0 +1,29 @@
+
+  .banner
+    {
+      width:1200px;
+      height:60px;
+      background-color:red;
+      border:1px solid black;
+    }
+  .lefta
+    {
+      width:200px;
+      height:1200px;
+      background-color:blue;
+      border:1px solid black;
+    }
+  .righta
+    {
+      width:200px;
+      height:1200px;
+      background-color:blue;
+      border:1px solid black;
+    }
+  .foot
+    {
+    width:1200px;
+    height:40px;
+    background-color:yellow;
+    border:1px solid black;
+  }
