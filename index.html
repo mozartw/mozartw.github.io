@@ -74,30 +74,48 @@
 
 <!-- 页面内部样式 -->
 <style type="text/css">
-  header
+  banner
     {
       width:1200px;
       height:60px;
       background-color:gray;
       border:1px solid black;
     }
-
+  lefta,righta
+    {
+      width:200px;
+      height:1200px;
+      background-color:blue;
+      border:1px solid black;
+  }
 
 </style>
 
 </head>
 
-<body class="home blog paged paged-6 is-loading">
-  <header><h1>页面标题</h1></header>
-  <nav>导航相关</nav>
-  <aside>左侧边栏</aside>
-  <article>
-    <section>内容1</section>
-    <section>内容2</section>
-    <section>内容3</section>
-  </article>
-  <aside>右侧边栏</aside>
-  <footer>页脚内容，版权声明</footer>
+<body>
+  <div class="banner">
+    <header>
+      <h1>页面标题</h1>
+    </header>
+    <nav>导航相关</nav>
+  </div>
+  <div class="lefta">
+    <aside>左侧边栏</aside>
+  </div>
+  <div class="main">
+    <article>
+      <section>内容1</section>
+      <section>内容2</section>
+      <section>内容3</section>
+    </article>
+  </div>
+  <div class="righta">
+    <aside>右侧边栏</aside>
+  </div>
+  <div class="foot">
+    <footer>页脚内容，版权声明</footer>
+  </div>
 
 
 
