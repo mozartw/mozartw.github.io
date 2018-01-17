@@ -10,9 +10,10 @@
     min-height: 100vh;
     flex-direction: row;
     margin: 0;
+
   }
   .col-1 {
-    background: #D7E8D4;
+    background: #424242;
     flex: 1;
   }
   .col-2 {
@@ -22,33 +23,52 @@
   }
   .content {
     display: flex;
-    flex-direction: row;
+    flex-direction:column;
   }
   .content > article {
     flex: 5;
     min-height: 80vh;
-    background: gray;
+    background: #616161;
   }
   .content > aside {
-    background: red;
+    background: #424242;
     flex: 1;
+
   }
-  header {
-    background: yellowgreen;
+  ul {
+  list-style: none;
+
+  }
+
+  .pagehead {
+    background: #212121;
     height: 15vh;
-  }
-  footer {
-    background: black;
-    height: 10vh;
     color: white;
+    font-size: 2em;
   }
-  header, footer, article, nav, aside {
+  .pagefoot {
+    background: #212121;
+    height: 10vh;
+    color: red;
+  }
+  footer, article, nav, aside {
     padding: 1em;
+    display:block;
   }
+  section {
+    font-size: 14px;
+
+  }
+  .articlep, .articlefoot {
+    font-size: 11px;
+  }
+
 </style>
 <body>
   <nav class="col-1">Nav左侧导航栏
+    <hr />
     <p>最上方是 LOGO 图片链接</p>
+    <hr />
     <ul>
       <li>最新文章</li>
       <li>文章分类</li>
@@ -65,11 +85,53 @@
     <hr />
   </nav>
   <div class="col-2">
-  	<header>Header页面顶部</header>
+  	<header class="pagehead">Header页面顶部</header>
+
+
     <main class="content">
-    <article>Article正文</article>
-    <aside>Aside正文右侧边栏</aside>
+
+    <article class="mainart1">
+        <header>
+          <h1>文章1标题</h1>
+          <p class="articlep">作者：ME！</p>
+          </header>
+        <section>文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文文章1正文</section>
+        <footer class="articlefoot"><p>文章一的页脚信息</p></footer>
+
+    </article>
+
+    <hr />
+
+
+
+    <!-- 暂时注释掉右侧边栏
+    <aside>Aside正文右侧边栏
+      <hr />
+      <p>最上方是 LOGO 图片链接</p>
+      <hr />
+      <ul>
+        <li>最新文章</li>
+        <li>文章分类</li>
+        <li>图片</li>
+
+      </ul>
+      <hr />
+      <ul>
+
+        <li>我是谁</li>
+        <li>联系我</li>
+
+      </ul>
+      <hr />
+
+    </aside>
+    -->
     </main>
-  	<footer>Footer页脚</footer>
+  	<footer class="pagefoot">Footer页脚············
+        版权声明 copyright
+
+
+
+    </footer>
   </div>
 </body>
