@@ -43,11 +43,16 @@
   .pagehead {
     background: #212121;
     height: 15vh;
-
-
-    font-size: 3.5em;
+    font-size: 3em;
     text-align:right;
   }
+
+  .pagehead  p {
+   color: red;
+  margin-right: 0.5em;
+  margin-top: 0.6em;
+  }
+
   .pagefoot {
     background: #212121;
     height: 10vh;
@@ -94,7 +99,7 @@
     <hr />
   </nav>
   <div class="col-2">
-  	<header class="pagehead">Header页面顶部</header>
+  	<header class="pagehead"><p id="pagename">Header页面顶部</p></header>
 
 
     <main class="content">
